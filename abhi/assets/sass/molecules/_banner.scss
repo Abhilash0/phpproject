@@ -1,0 +1,24 @@
+/**
+ * ----------------------
+ * 
+ * Molecules - Banner
+ * ----------------------
+ */
+
+.m-no-banner {
+  margin-top: calc(var(--bump) * 3);
+
+  @include media('<sm') {
+    margin-top: var(--bump);
+  }
+}
+
+.m-banner {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

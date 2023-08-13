@@ -1,0 +1,42 @@
+name: Abhiash
+type: theme
+description: Custom theme for learning
+core_version_requirement: ^8 || ^9
+base theme: classy
+libraries: 
+  - abhi/global
+
+
+regions:
+  branding: Branding
+  navigation: Main navigation
+  search: Search
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom
+
+libraries-override:
+  classy/base: false
+  classy/file: false
+  classy/messages: false
+  system/base: false
+  system/menu: false
+  system/admin: false
+  system/maintenance: false
+  system/drupal.system: false
+  system/drupal.system.modules: false
+  system/diff: false
+  system/drupal.system.date: false
+  system/normalize: false
+  core/normalize: false
+  contextual/drupal.contextual-links: false
+  quickedit/quickedit: false
+  views/views.module: false
+  anchor_link/drupal.anchor_link: false
+  video_embed_field/responsive-video: false
+  miniorange_saml/miniorange_saml.admin: false
+  miniorange_saml/miniorange_saml.Vtour: false  
